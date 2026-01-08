@@ -85,8 +85,13 @@ NEXT_PUBLIC_OPENWEATHER_API_KEY=your_api_key_here
 NEXT_PUBLIC_DEFAULT_COUNTRY=IN
 Get your API key from: https://openweathermap.org/api
 
+```
+
+---
+
 🧑‍💻 Getting Started Locally
 
+```env
 # Install dependencies
 npm install
 
@@ -99,6 +104,7 @@ npm run build
 # Start production server
 npm start
 
+```
 
 🌍 Deployment
 The application is deployed on Vercel
