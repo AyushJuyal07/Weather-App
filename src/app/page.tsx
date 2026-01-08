@@ -1,9 +1,7 @@
-export default function Home() {
-  return (
-    <main className="min-h-screen flex items-center justify-center">
-      <h1 className="text-2xl font-semibold">
-        Weather Forecast App
-      </h1>
-    </main>
-  );
+"use client";
+
+import App from "@/App";
+
+export default function Page() {
+  return <App />;
 }
