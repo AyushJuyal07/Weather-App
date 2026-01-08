@@ -62,6 +62,7 @@ A modern, responsive **Weather Web Application** built with **Next.js** and **Ty
 
 ## 📁 Project Structure
 
+```env
 src/
 ├── app/ # Next.js App Router
 ├── components/ # Reusable UI components
@@ -71,6 +72,7 @@ src/
 ├── types/ # TypeScript types
 └── styles/ # Global styles
 
+```
 
 ---
 
