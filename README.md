@@ -106,10 +106,11 @@ npm start
 
 ```
 
-🌍 Deployment
-The application is deployed on Vercel
+### 🌍 Deployment
+**The application is deployed on Vercel**
 
+---
 
-👤 Author
-Ayush Juyal
-Software Developer
+### 👤 Author
+**Ayush Juyal**
+**Software Developer**
