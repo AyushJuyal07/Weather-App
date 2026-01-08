@@ -36,10 +36,6 @@ A modern, responsive **Weather Web Application** built with **Next.js** and **Ty
 ![Light Mode](./screenshots/light-mode.png)
 
 
-> 📌 **Tip:**  
-> Create a `screenshots/` folder in the root of the repository and place your images there.  
-> You can name them however you like — just update the paths accordingly.
-
 ---
 
 ## 🛠️ Tech Stack
