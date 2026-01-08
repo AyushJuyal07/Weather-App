@@ -35,7 +35,6 @@ A modern, responsive **Weather Web Application** built with **Next.js** and **Ty
 ### 🌙 Light Mode
 ![Light Mode](./screenshots/light-mode.png)
 
-
 ---
 
 ## 🛠️ Tech Stack
@@ -97,25 +96,13 @@ npm run build
 
 # Start production server
 npm start
+
+---
+
 🌍 Deployment
-The application is deployed on Vercel with:
+The application is deployed on Vercel
 
-Static generation
-
-Global CDN
-
-Environment variable support
-
-📌 Key Learnings
-Real-world Next.js migration strategies
-
-Handling dependency version mismatches
-
-Maintaining UI parity during framework changes
-
-Working with React Query + SSR/SSG
-
-Production-grade project structuring
+---
 
 👤 Author
 Ayush Juyal
