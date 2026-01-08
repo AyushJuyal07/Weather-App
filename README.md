@@ -97,12 +97,10 @@ npm run build
 # Start production server
 npm start
 
----
 
 🌍 Deployment
 The application is deployed on Vercel
 
----
 
 👤 Author
 Ayush Juyal
