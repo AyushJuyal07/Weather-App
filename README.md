@@ -1,36 +1,126 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌦️ Weather Companion
 
-## Getting Started
+A modern, responsive **Weather Web Application** built with **Next.js** and **TypeScript**, providing real-time weather information, 5-day forecasts, and location-based updates with a clean, glassmorphism-inspired UI.
 
-First, run the development server:
+---
 
-```bash
+## ✨ Features
+
+- 🔍 **City-based Weather Search**
+- 📍 **Auto-detect User Location**
+- 🌡️ **Temperature Unit Toggle (°C / °F)**
+- 🌙 **Dark / Light Mode**
+- 📊 **5-Day Weather Forecast**
+- 🏙️ **Popular Cities Weather Table**
+- ⚡ **Fast Loading with Skeleton Loaders**
+- 🚨 **Graceful Error & Loading States**
+- 🎨 **Pixel-perfect UI with Tailwind CSS**
+- 🌐 **Fully Responsive Design**
+
+---
+
+## 🖼️ Screenshots
+
+> _A quick look at the UI and key features of the application._
+
+### 🌤️ Home / Weather Overview
+![Home Screen](./screenshots/home.png)
+
+### 🔍 Forecast
+![Forecast](./screenshots/forecast.png)
+
+### 📊 Cities Details
+![Cities Details](./screenshots/cities.png)
+
+### 🌙 Light Mode
+![Light Mode](./screenshots/light-mode.png)
+
+
+> 📌 **Tip:**  
+> Create a `screenshots/` folder in the root of the repository and place your images there.  
+> You can name them however you like — just update the paths accordingly.
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- **Next.js (App Router)**
+- **React 18**
+- **TypeScript**
+- **Tailwind CSS**
+- **shadcn/ui**
+- **Radix UI**
+
+### State & Data
+- **@tanstack/react-query** – data fetching & caching
+- **OpenWeatherMap API** – weather data
+
+### UI & Utilities
+- **Recharts** – charts & visualizations
+- **Embla Carousel** – smooth carousels
+- **react-day-picker** – calendar support
+- **next-themes** – theme handling
+- **Lucide Icons**
+
+---
+
+## 📁 Project Structure
+
+src/
+├── app/ # Next.js App Router
+├── components/ # Reusable UI components
+│ └── ui/ # shadcn/ui components
+├── hooks/ # Custom React hooks
+├── lib/ # Utility functions
+├── types/ # TypeScript types
+└── styles/ # Global styles
+
+
+---
+
+## 🔐 Environment Variables
+
+Create a `.env.local` file in the root directory:
+
+```env
+NEXT_PUBLIC_OPENWEATHER_API_KEY=your_api_key_here
+NEXT_PUBLIC_DEFAULT_COUNTRY=IN
+Get your API key from: https://openweathermap.org/api
+
+🧑‍💻 Getting Started Locally
+
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# Build for production
+npm run build
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+# Start production server
+npm start
+🌍 Deployment
+The application is deployed on Vercel with:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Static generation
 
-## Learn More
+Global CDN
 
-To learn more about Next.js, take a look at the following resources:
+Environment variable support
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+📌 Key Learnings
+Real-world Next.js migration strategies
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Handling dependency version mismatches
 
-## Deploy on Vercel
+Maintaining UI parity during framework changes
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Working with React Query + SSR/SSG
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Production-grade project structuring
+
+👤 Author
+Ayush Juyal
+Software Developer
